@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e0d9c1-9eb1-439c-a742-c0cc85843860" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/s.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,22 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="-2.6153846">
+            <state line="22" column="80" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.5675266">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/s.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="7" selection-start="588" selection-end="588" vertical-scroll-proportion="0.50595236">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +101,8 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/s.html" />
+        <option value="$PROJECT_DIR$/search.html" />
       </list>
     </option>
   </component>
@@ -427,19 +418,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="241" selection-end="241" vertical-scroll-proportion="-2.6153846">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="7" selection-start="588" selection-end="588" vertical-scroll-proportion="0.50595236">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="80" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.5675266">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
