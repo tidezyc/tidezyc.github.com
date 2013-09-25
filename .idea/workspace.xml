@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e0d9c1-9eb1-439c-a742-c0cc85843860" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,6 +29,7 @@
     <file path="$PROJECT_DIR$/_site/page5/index.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376843552403" ignored="false" />
     <file path="$PROJECT_DIR$/_site/categories.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376843552403" ignored="false" />
     <file path="/base.js" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380109823650" ignored="false" />
+    <file path="/search.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380112149619" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="44" selection-start="785" selection-end="802" vertical-scroll-proportion="0.45535713">
+            <state line="18" column="44" selection-start="785" selection-end="802" vertical-scroll-proportion="-11.769231">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="40" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.59332323">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,13 +96,13 @@
         <option value="$PROJECT_DIR$/categories.html" />
         <option value="$PROJECT_DIR$/tags.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/js/base.js" />
         <option value="$PROJECT_DIR$/css/code.min.css.html" />
         <option value="$PROJECT_DIR$/css/code.min.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/search.html" />
       </list>
     </option>
   </component>
@@ -318,11 +330,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="572" selection-end="572" vertical-scroll-proportion="0.71570575" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/aside_comment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="52" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
@@ -411,8 +418,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="785" selection-end="802" vertical-scroll-proportion="0.45535713">
+        <state line="18" column="44" selection-start="785" selection-end="802" vertical-scroll-proportion="-11.769231">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.59332323">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
