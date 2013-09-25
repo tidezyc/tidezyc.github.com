@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div id="content" class="clearfix">
+    <article class="entry">
+        <header class="entry-header">
+            <h1 class="entry-title">
+                <a href="{{ page.url }}" title="{{ page.title }}" rel="bookmark">{{ page.title }}</a>
+            </h1>
+
+
+            <div class="entry-meta">
+                <time class="entry-date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">
+                    {{ page.date | date_to_string }}
+                </time>
+                {% unless page.categories == empty %}
+                &nbsp;|&nbsp;
+                {% for cate in page.categories %}
+                <a href="/categories.html#{{ cate }}">{{ cate}}</a>&nbsp;
+                {% endfor %}
+                {% endunless %}
+                {% unless page.tags == empty %}
+                |&nbsp;<i class="tag-icon"></i>
+                {% for tag in page.tags %}
+                &nbsp;<a href="/tags.html#{{ tag }}" title="{{ tags }}">{{ tag }}</a>
+                {% endfor %}
+                {% endunless %}
+            </div>
+            <!-- <div class="comments-link">
+                <a class="ds-thread-count" data-thread-key="{{ page.id }}" data-count-type="comments" href="{{ page.url }}#comments">0</a>
+            </div>-->
+        </header>
+        <div class="entry-content">
+            {{ content }}
+        </div>
+    </article>
+    <nav class="page-nav">
+        {% if page.previous %}
+        <a class="nav-previous" href="{{ page.previous.url }}" rel="bookmark">
+            &laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+        {% endif %}
+        {% if page.next %}
+        <a class="nav-next" href="{{ page.next.url }}" rel="bookmark">
+            {{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+        {% endif %}
+    </nav>
+    <!-- Comment -->
+    <div id="comments">
+        <div class="ds-thread"></div>
+    </div>
+    <!-- Comment END-->
+</div>
+<div id="sidebar">
+    {% include aside_category.html %}
+    {% include aside_tags.html %}
+    {% include aside_relatepost.html %}
+    {% include aside_comment.html %}
+    {% include aside_visitors.html %}
+    {% include aside_links.html %}
+    {% include aside_social.html %}
+</div>

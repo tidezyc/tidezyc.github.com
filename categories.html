@@ -1,0 +1,27 @@
+---
+layout: default
+title: Categories
+---
+<div class="archives">
+    <h4 class="page-title">All posts is here.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>
+
+    {% for category in site.categories %}
+    <a href="#{{ category[0] }}">{{ category[0] | join: "/" }}</a>
+    {% endfor %}
+
+    {% for category in site.categories %}
+    <div id="{{ category[0] }}">
+        <h3>{{ category[0] }}</h3>
+        {% for post in category[1] %}
+        <article class="article-box">
+            <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+            <p class="date">
+                <time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date_to_string }}</time>
+            </p>
+        </article>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+</div>

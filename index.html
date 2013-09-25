@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div id="content" class="clearfix">
+    {% for rpost in paginator.posts %}
+    <article class="entry">
+        <header class="entry-header">
+            <h3 class="entry-title">
+                <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
+            </h3>
+
+            <div class="entry-meta">
+                <time class="entry-date" pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time>
+                {% unless rpost.categories == empty %}
+                &nbsp;|&nbsp;
+                {% for cate in rpost.categories %}
+                <a href="/categories.html#{{ cate }}">{{ cate}}</a>&nbsp;
+                {% endfor %}
+                {% endunless %}
+                {% unless rpost.tags == empty %}
+                |&nbsp;<i class="tag-icon"></i>
+                {% for tag in rpost.tags %}
+                &nbsp;<a href="/tags.html#{{ tag }}">{{ tag}}</a>
+                {% endfor %}
+                {% endunless %}
+            </div>
+        </header>
+        <div class="entry-content clearfix">
+            {{ rpost.content | split:'<!--more-->' |first }}
+            <p class="read-more">
+                <a href="{{ rpost.url }}" title="Read More" rel="nofollow" class="more-link">
+                    <span>&#10149;</span>ReadMore
+                </a>
+            </p>
+        </div>
+    </article>
+    {% endfor %}
+    {% if paginator.total_pages > 1 %}
+    <nav id="pagination">
+        <ul class="pagination">
+            {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
+            {% else %}
+            <li><a href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+</div>
+<div id="sidebar">
+    {% include aside_category.html %}
+    {% include aside_tags.html %}
+    {% include aside_comment.html %}
+    {% include aside_visitors.html %}
+    {% include aside_links.html %}
+    {% include aside_social.html %}
+</div>

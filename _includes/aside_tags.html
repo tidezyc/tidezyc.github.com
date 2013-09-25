@@ -1,0 +1,6 @@
+<aside class="clearfix">
+	<h3 class="title">Tags</h3>
+	{% for tags in site.tags %} 
+  		<a href="/tags.html#{{ tags[0] }}">{{ tags[0] | join: "/" }}</a>
+	{% endfor %}
+</aside>

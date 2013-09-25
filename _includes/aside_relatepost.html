@@ -1,0 +1,10 @@
+<aside class="clearfix">
+    <h3>Relate post</h3>
+    <ul class="sidelist">
+        {% for rp in site.related_posts %}
+        <li>
+            <a href="{{ rp[0] }}">{{ rp[0] | join: "/" }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</aside>

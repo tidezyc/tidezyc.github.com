@@ -1,0 +1,22 @@
+<header id="header">
+    <hgroup id="logo">
+        <h4 id="site-title">
+            <a href="/" title="{{ site.blogName }}" rel="home">{{ site.blogName }}</a>
+        </h4>
+        <h5 id="site-description">{{ site.blogDesc }}</h5>
+    </hgroup>
+    <nav id="access" role="navigation">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/archives.html">Archives</a></li>
+            <li><a href="/categories.html">categories</a></li>
+            <li><a href="/tags.html">Tags</a></li>
+            <li><a href="/aboutme.html">About Me</a></li>
+        </ul>
+    </nav>
+    <form method="get" id="searchform" action="/search.html" target="_blank" onsubmit="return search();">
+        <input type="text" name="q" id="s" placeholder="Search">
+        <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search">
+    </form>
+    <a id="rss" href="/rss.xml">RSS<i title="rss"></i></a>
+</header>
