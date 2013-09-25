@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e0d9c1-9eb1-439c-a742-c0cc85843860" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/code.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/highlight.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380107962854" ignored="false" />
     <file path="/head.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380109044293" ignored="false" />
     <file path="/style_zipe.css" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376836432692" ignored="false" />
-    <file path="/default.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380108558002" ignored="false" />
+    <file path="/default.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1380111753283" ignored="false" />
     <file path="/post.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376841146829" ignored="false" />
     <file path="/index.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376840675531" ignored="false" />
     <file path="/aside_category.html" changelist="24e0d9c1-9eb1-439c-a742-c0cc85843860" time="1376842115494" ignored="false" />
@@ -48,19 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base.js">
+      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="7" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.7936267">
+            <state line="16" column="76" selection-start="674" selection-end="674" vertical-scroll-proportion="0.4047619">
               <folding />
             </state>
           </provider>
@@ -84,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_includes/aside_visitors.html" />
-        <option value="$PROJECT_DIR$/_includes/aside_comment.html" />
-        <option value="$PROJECT_DIR$/_includes/foot.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/aside_tags.html" />
@@ -97,9 +91,12 @@
         <option value="$PROJECT_DIR$/tags.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/css/code.min.css.html" />
+        <option value="$PROJECT_DIR$/css/code.min.css" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -164,20 +161,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tidezyc.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -221,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="D:\blog" />
       <recent name="D:\blog\_includes" />
     </key>
@@ -359,39 +343,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/highlight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/aside_relatepost.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="572" selection-end="572" vertical-scroll-proportion="0.3353566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-21.732847">
-          <folding>
-            <marker date="1380107668651" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/code.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -424,16 +378,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
+    <entry file="file://$PROJECT_DIR$/css/code.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="4616" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/code.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3781" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="18067" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380107668651" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4019" selection-start="13894" selection-end="13894" vertical-scroll-proportion="0.049635038">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="7" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.7936267">
+        <state line="21" column="30" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-0.26403642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="76" selection-start="674" selection-end="674" vertical-scroll-proportion="0.4047619">
           <folding />
         </state>
       </provider>
