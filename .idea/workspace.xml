@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e0d9c1-9eb1-439c-a742-c0cc85843860" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/code.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/highlight.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +51,7 @@
       <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="76" selection-start="674" selection-end="674" vertical-scroll-proportion="0.4047619">
+            <state line="18" column="43" selection-start="784" selection-end="784" vertical-scroll-proportion="0.45535713">
               <folding />
             </state>
           </provider>
@@ -417,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="76" selection-start="674" selection-end="674" vertical-scroll-proportion="0.4047619">
+        <state line="18" column="43" selection-start="784" selection-end="784" vertical-scroll-proportion="0.45535713">
           <folding />
         </state>
       </provider>
