@@ -10,7 +10,7 @@ title: Categories
     {% endfor %}
 
     {% for category in site.categories %}
-    <div id="{{ category[0] }}" style="display:none;float:left;border:1px solid #eee;width:100%">
+    <div id="{{ category[0] }}" style="display:none;float:left;border:1px solid #ccc;width:938px;padding:10px" class="cate_block">
         <h3>{{ category[0] }}</h3>
         {% for post in category[1] %}
         <article class="article-box">
@@ -26,5 +26,7 @@ title: Categories
 </div>
 <script src="http://libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
-    
+    $('.cate_block').click(function() {
+        /* Act on the event */
+    });
 </script>
