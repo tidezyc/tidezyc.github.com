@@ -6,7 +6,7 @@ title: Categories
     <h4 class="page-title">Posts With Categories.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>
 
     {% for category in site.categories %}
-    <a href="#{{ category[0] }}">{{ category[0] | join: "/" }}</a>
+    <a href="#{{ category[0] }}" class="cate_pointer">{{ category[0] | join: "/" }}</a>
     {% endfor %}
 
     {% for category in site.categories %}
@@ -26,7 +26,9 @@ title: Categories
 </div>
 <script src="http://libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
-    $('.cate_block').click(function() {
-        /* Act on the event */
+    $('.cate_pointer').click(function() {
+        $('.cate_block').show().animate({
+            left: 0
+        },1000);
     });
 </script>
