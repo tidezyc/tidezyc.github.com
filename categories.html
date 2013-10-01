@@ -11,7 +11,7 @@ title: Categories
 
     <div style="width:960px;overflow:hidden;position:relative" class="clearfix">
         {% for category in site.categories %}
-        <div id="{{ category[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;position:absolute;top:0;left:960px" class="cate_block">
+        <div id="{{ category[0] }}" style="float:left;border:1px solid #ccc;width:938px;padding:10px;position:absolute;top:0;left:960px" class="cate_block">
             <h3>{{ category[0] }}</h3>
             {% for post in category[1] %}
             <article class="article-box">
