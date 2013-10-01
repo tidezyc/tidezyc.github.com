@@ -10,17 +10,18 @@ title: Tags
     {% endfor %}
 
     {% for tag in site.tags %}
-    <div id="{{ tag[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;margin-top:10px;border-radius:3px;-webkit-border-radius:3px" class="tag_post">
+    <div id="{{ tag[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;margin-top:10px;border-radius:3px;-webkit-border-radius:3px" class="tag_post post-lint-list">
         <h3>{{ tag[0] }}</h3>
+        <ul>
         {% for post in tag[1] %}
-        <article class="article-box">
-            <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-            <p class="date">
-                <time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date_to_string }}</time>
-            </p>
-        </article>
+            <li>
+                <span class="date">
+                    <time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date_to_string }}</time>
+                </span>
+                <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </li>
         {% endfor %}
+        </ul>
     </div>
     {% endfor %}
 </div>

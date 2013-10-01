@@ -911,7 +911,7 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
 
 .label {
     border:1px solid #ccc;
-    padding:5px;
+    padding:2px 5px;
     margin:3px;
     border-radius:3px;
     -webkit-border-radius:3px;
@@ -919,13 +919,38 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
     display: inline-block;
 }
 
-.label:hover{
+.label:hover {
     text-decoration: none;
     background-color: #ddd;
     color: #06c;
 }
 
-.border-radius{
+.border-radius {
     border-radius:3px;
     -webkit-border-radius:3px;
 }
+
+ .post-lint-list {
+    border:1px solid #ccc;
+    width:938px;
+    padding:10px;
+    margin-top:10px;
+    border-radius:3px;
+    -webkit-border-radius:3px
+ }
+
+ .post-lint-list ul {
+
+ }
+
+ .post-lint-list ul li {
+    list-style: none;
+ }
+
+ .post-lint-list .date {
+
+ }
+
+ .post-lint-list .title {
+
+ }

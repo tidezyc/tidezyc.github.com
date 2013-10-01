@@ -4,13 +4,16 @@ title: Archives
 ---
 <div class="archives">
     <h4 class="page-title">All posts is here.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>
-    {% for post in site.posts %}
-    <article class="article-box">
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-        <p class="date">
-            <time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date_to_string }}</time>
-        </p>
-    </article>
-    {% endfor %}
+    <div class="post-lint-list">
+    	<ul>
+        {% for post in site.posts %}
+            <li>
+                <span class="date">
+                    <time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date_to_string }}</time>
+                </span>
+                <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </li>
+        {% endfor %}
+    	</ul>
+    </div>
 </div>
