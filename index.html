@@ -10,7 +10,7 @@ layout: default
             </h3>
 
             <div class="entry-meta">
-                <time class="entry-date" pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time>
+                <time class="entry-date" pubdate="{{ rpost.date }}">{{ rpost.date | date: "%Y/%m/%d" }}</time>
                 {% unless rpost.categories == empty %}
                 &nbsp;|&nbsp;
                 {% for cate in rpost.categories %}
