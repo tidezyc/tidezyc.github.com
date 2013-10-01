@@ -6,11 +6,11 @@ title: Tags
     <h4 class="page-title">All posts is here.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>
 
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}">{{ tag[0] | join: "/" }}</a>
+    <a href="#{{ tag[0] }}" class="label">{{ tag[0] | join: "/" }}</a>
     {% endfor %}
 
     {% for tag in site.tags %}
-    <div id="{{ tag[0] }}">
+    <div id="{{ tag[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;margin-top:10px;border-radius:3px;-webkit-border-radius:3px" class="cate_block">
         <h3>{{ tag[0] }}</h3>
         {% for post in tag[1] %}
         <article class="article-box">
