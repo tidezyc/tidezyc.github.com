@@ -14,9 +14,19 @@
             <li><a href="/aboutme.html">About Me</a></li>
         </ul>
     </nav>
-    <form method="get" id="searchform" action="/search.html" onsubmit="return false;" target="_blank">
+    <form method="get" id="searchform" action="/search.html" onsubmit="return checkSubmit();" target="_blank">
         <input type="text" name="q" id="s" placeholder="Search">
         <input type="submit" class="submit" id="searchsubmit" value="Search">
     </form>
+    <script type="text/javascript">
+        function checkSubmit () {
+            var _q = document.getElementById(s).value;
+            if(_q == ''||_q.trim() == ''){
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
     <a id="rss" href="/rss.xml">RSS<i title="rss"></i></a>
 </header>
