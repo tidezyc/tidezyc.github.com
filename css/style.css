@@ -952,5 +952,6 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
  }
 
  .post-lint-list .title {
-
+    font-size: 14px;
+    font-weight: bold;
  }
