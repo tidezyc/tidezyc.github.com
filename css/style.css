@@ -921,7 +921,8 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
 
 .label:hover{
     text-decoration: none;
-    background-color: #eee;
+    background-color: #ddd;
+    color: #06c;
 }
 
 .border-radius{
