@@ -949,7 +949,7 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
  }
 
  .post-lint-list .date {
-
+    font-size: 14px;
  }
 
  .post-lint-list .title {
