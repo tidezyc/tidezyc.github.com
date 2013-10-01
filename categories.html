@@ -27,7 +27,8 @@ title: Categories
 <script src="http://libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
     $('.cate_pointer').click(function() {
-        $('.cate_block').show().animate({
+        var _target = $(this).attr('href');
+        $(_target).show().animate({
             left: 0
         },1000);
     });
