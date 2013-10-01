@@ -945,6 +945,7 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
 
  .post-lint-list ul li {
     list-style: none;
+    padding: 5px;
  }
 
  .post-lint-list .date {
