@@ -26,9 +26,10 @@ title: Categories
 </div>
 <script src="http://libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
+    $('.cate_block:first').show();
     $('.cate_pointer').click(function() {
         var _target = $(this).attr('href');
-        $(.cate_block).hide();
+        $('.cate_block').hide();
         $(_target).show();
     });
 </script>
