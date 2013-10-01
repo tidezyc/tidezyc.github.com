@@ -10,7 +10,7 @@ title: Categories
     {% endfor %}
 
     {% for category in site.categories %}
-    <div id="{{ category[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;margin-top:10px" class="cate_block">
+    <div id="{{ category[0] }}" style="display:none;border:1px solid #ccc;width:938px;padding:10px;margin-top:10px;border-radius:3px;-webkit-border-radius:3px" class="cate_block">
         <h3>{{ category[0] }}</h3>
         {% for post in category[1] %}
         <article class="article-box">
