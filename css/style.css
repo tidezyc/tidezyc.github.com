@@ -950,7 +950,8 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
 
  .post-lint-list .date {
     font-size: 13px;
-    color: #7c7c7c;
+    color: #898989;
+    font-weight: bold;
  }
 
  .post-lint-list .title {
