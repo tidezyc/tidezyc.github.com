@@ -919,6 +919,11 @@ img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
     display: inline-block;
 }
 
+.label:hover{
+    text-decoration: none;
+    background-color: #eee;
+}
+
 .border-radius{
     border-radius:3px;
     -webkit-border-radius:3px;
