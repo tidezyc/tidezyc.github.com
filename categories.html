@@ -6,7 +6,7 @@ title: Categories
     <h4 class="page-title">Posts With Categories.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>
 
     {% for category in site.categories %}
-    <a href="#{{ category[0] }}" class="cate_pointer" style="border:1px solid #ccc;padding:5px;margin:3px;border-radius:3px;-webkit-border-radius:3px;font-size:13px">{{ category[0] | join: "/" }}</a>
+    <a href="#{{ category[0] }}" class="cate_pointer" style="border:1px solid #ccc;padding:5px;margin-right:5px;border-radius:3px;-webkit-border-radius:3px;font-size:13px">{{ category[0] | join: "/" }}</a>
     {% endfor %}
 
     {% for category in site.categories %}
