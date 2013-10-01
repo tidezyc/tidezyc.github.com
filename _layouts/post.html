@@ -11,7 +11,7 @@ layout: default
 
             <div class="entry-meta">
                 <time class="entry-date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">
-                    {{ page.date | date: "%Y-%m-%d" }}
+                    {{ page.date | date: "%Y/%m/%d" }}
                 </time>
                 {% unless page.categories == empty %}
                 &nbsp;|&nbsp;
