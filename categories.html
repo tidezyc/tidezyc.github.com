@@ -9,7 +9,7 @@ title: Categories
     <a href="#{{ category[0] }}" class="cate_pointer">{{ category[0] | join: "/" }}</a>
     {% endfor %}
 
-    <div style="width:1920px;overflow:hidden">
+    <div style="width:1920px;overflow:hidden;position:absolute" class="clearfix">
         {% for category in site.categories %}
         <div id="{{ category[0] }}" style="display:none;float:right;border:1px solid #ccc;width:938px;padding:10px;position:absolute;top:0;left:960px" class="cate_block">
             <h3>{{ category[0] }}</h3>
