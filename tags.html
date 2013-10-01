@@ -15,7 +15,7 @@ title: Tags
         <ul>
         {% for post in tag[1] %}
             <li>
-                <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                <span class="date">[&nbsp;{{ post.date | date: "%Y-%m-%d" }}&nbsp;]</span>&nbsp;&nbsp;
                 <a class="title" href="{{ post.url }}">{{ post.title }}</a>
             </li>
         {% endfor %}
