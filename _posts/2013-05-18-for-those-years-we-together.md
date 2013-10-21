@@ -83,6 +83,7 @@ published: true
 对酒当歌，人生几何是悲喜。
 
 悲欢离合当是时，愿与共相念。
+
 <!--more-->
 
 ![](http://bcs.duapp.com/thinkjet/img%2Fdzsw0901.jpg)
