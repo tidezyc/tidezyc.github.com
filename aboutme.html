@@ -3,7 +3,14 @@ layout: default
 title: About Me & Contacts
 ---
 <h4 class="page-title">A little about me</span></h4>
-<img src="http://bcs.duapp.com/thinkjet/img%2Favatar.jpeg" />
-{{ site.author.name}}
-<h3>Contact Me</h3>
-<p>GTalk / GMail : <a href="mailto:{{ site.author.email }}" title="Mail to author">{{ site.author.email }}</a></p>
+<div>
+  <div style="float:left;width:100px;text-align:center">
+    <img src="http://bcs.duapp.com/thinkjet/img%2Favatar.jpeg" />
+  </div>
+  <div style="float:left">
+    {{ site.author.name}}
+    <h3>Contact Me</h3>
+    <p>GTalk / GMail : <a href="mailto:{{ site.author.email }}" title="Mail to author">{{ site.author.email }}</a></p>
+  </div>
+</div>
+
