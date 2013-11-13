@@ -34,7 +34,7 @@ public class GetDataFromBusSystem {
 		getResultByQueryName("武林广场");
 	}
 
-	public static List&lt;String[]&gt; getResultByLocation(String w, String x,
+	public static List<String[]> getResultByLocation(String w, String x,
 			String y) {
 		try {
 			Document doc = Jsoup.connect(REQUEST_URL_LOCATION).timeout(10000)
@@ -47,8 +47,8 @@ public class GetDataFromBusSystem {
 
 	}
 
-	public static List&lt;String[]&gt; getResultByQueryName(String nm) {
-		if (nm != null &amp;&amp; !nm.equals("")) {
+	public static List<String[]> getResultByQueryName(String nm) {
+		if (nm != null && !nm.equals("")) {
 			try {
 				Document doc = Jsoup.connect(REQUEST_URL_QUERYNAME)
 						.timeout(10000).data("nm", nm).data("area", "-1").get();
@@ -60,9 +60,9 @@ public class GetDataFromBusSystem {
 		return null;
 	}
 
-	private static List&lt;String[]&gt; getResult(Document doc) {
-		Iterator&lt;Element&gt; lis = doc.select("#dvInit li.bt").iterator();
-		List&lt;String[]&gt; list = new ArrayList&lt;String[]&gt;();
+	private static List<String[]> getResult(Document doc) {
+		Iterator<Element> lis = doc.select("#dvInit li.bt").iterator();
+		List<String[]> list = new ArrayList<String[]>();
 		while (lis.hasNext()) {
 			Element li = lis.next();
 			String regex = "\'.*?\'";
@@ -71,7 +71,7 @@ public class GetDataFromBusSystem {
 			Matcher m = pt.matcher(result);
 			int i = 0;
 			String[] l = new String[16];
-			while (m.find() &amp;&amp; i &lt; 16) {
+			while (m.find() && i > 16) {
 				String s = unescape(m.group());
 				l[i] = s.substring(1, s.length() - 1);
 				System.out.println(" -" + i + "- " + l[i]);
@@ -88,7 +88,7 @@ public class GetDataFromBusSystem {
 		tmp.ensureCapacity(src.length());
 		int lastPos = 0, pos = 0;
 		char ch;
-		while (lastPos &lt; src.length()) {
+		while (lastPos < src.length()) {
 			pos = src.indexOf("%", lastPos);
 			if (pos == lastPos) {
 				if (src.charAt(pos + 1) == 'u') {
