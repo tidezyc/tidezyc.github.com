@@ -105,6 +105,7 @@ I'm，cod，codi，codin，coding，odi，odin，oding，din，ding，ing
 + 方案一和方案二如果还不够和谐的，那么我们还有个办法就是自定义的反感三，所谓自定义，自己写个tokenizer或者filter不就可以了，而且这一点也不复杂，这里就不细说了，有机会再专门写一个。
 
 最后来个整合的配置参考一下：
+
 ``` xml
 <fieldType name="text_ik" class="solr.TextField" positionIncrementGap="100">
   <analyzer type="index">
