@@ -84,6 +84,7 @@ public class IKAnalyzerTokenizerFactory extends TokenizerFactory{
 比如`I'm coding`一般可以分词为`I'm, coding`或者`I, m, coding`。一般情况下这样也是可以接受的，但是如果用户输入`code`，是否应该搜到结果呢，如果要搜到该结果，那么我们需要处理我们的英文分词。
 
 这里提供一种简单的实现，就是采用NGramFilterFactory，该过滤器简单的按照长度对词进行切分，该过滤器有两个参数`minGramSize`和`maxGramSize`，分别表示最小和最大的切分长度，默认是`1`和`2`。
+
 ``` xml
 <analyzer>
   <tokenizer class="solr.StandardTokenizerFactory"/>
@@ -91,9 +92,11 @@ public class IKAnalyzerTokenizerFactory extends TokenizerFactory{
 </analyzer>
 ```
 比如设置(min,max)为(3,5)，我们上面的句子“I'm coding”会得到以下的结果：
+
 ```
 I'm，cod，codi，codin，coding，odi，odin，oding，din，ding，ing
 ```
+
 当然这里也会有问题，就是小于3个词长的都会被过滤调，特别是中文和英文采用的是同一词长处理，如果min设为3，那么像`我，我们`这样的都会被过滤，解决办法就是min设为1，这样的结果就是会大大增加索引记录。影响检索速度。好处就是可以实现字母级别的匹配，然后通过设置匹配度阔值提升了搜索质量。
 
 分别处理完了中文和英文，那么就要混合中英文处理了
