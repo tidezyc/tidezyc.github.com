@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /css/
+Disallow: /images/
+Sitemap: http://thinkjet.me/sitemap.txt
