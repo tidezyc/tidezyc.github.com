@@ -86,4 +86,4 @@ published: true
 
 <!--more-->
 
-![](http://cdn.thinkjet.me/imagestorage/dzsw0901.jpg)
+![](http://bcs.duapp.com/imagestorage/dzsw0901.jpg)
