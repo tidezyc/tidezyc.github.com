@@ -11,7 +11,7 @@ tags:
 
 百度CDN最明显的优势就是速度快，下面是测试截图：
 
-![](http://cdn.thinkjet.me/imagestorage/BAE-CDN.png)
+![](http://bcs.duapp.com/imagestorage/BAE-CDN.png)
 
 测试结果一目了然，百度在国内的速度明显优于googlecdn，在国内的话完全可以考虑将google cdn 替换成bae的cdn服务
 
