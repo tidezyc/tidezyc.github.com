@@ -7,14 +7,14 @@ paginate:         4
 
 permalink:        /:title.html
 
-title:            Thinkjet|码农的自我思维世界
-url:              http://thinkjet.me
-description:      "Thinkjet.me | johnny chu 的个人技术博客，一个码农的自我思维世界，关于互联网、关于Java、关于技术的点点滴滴，至极至乐，耕耘技术，体验思维的乐趣"
+title:            Tidezyc|码农的自我思维世界
+url:              http://tidezyc.me
+description:      "Tidezyc.me | johnny chu 的个人技术博客，一个码农的自我思维世界，关于互联网、关于Java、关于技术的点点滴滴，至极至乐，耕耘技术，体验思维的乐趣"
 author:
     name:         tidezyc
     email:        tide.zyc at gmail dot com
 
-blogName: 		  Thinkjet
+blogName: 		  Tidezyc
 blogDesc: 		  至极至乐，体验思维的乐趣
 
-production_url:	  http://thinkjet.me
+production_url:	  http://tidezyc.me
