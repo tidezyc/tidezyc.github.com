@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Solr的中英文分词实现
 category : solr
 tags:
@@ -62,16 +61,16 @@ public class IKAnalyzerTokenizerFactory extends TokenizerFactory{
 <fieldType name="text_ik" class="solr.TextField" >
   <analyzer type="index">
     <tokenizer class="org.wltea.analyzer.lucene.IKAnalyzerTokenizerFactory" useSmart="false"/>
-  </analyzer> 
+  </analyzer>
   <analyzer type="query">
     <tokenizer class="org.wltea.analyzer.lucene.IKAnalyzerTokenizerFactory" useSmart="true"/>
-  </analyzer> 
+  </analyzer>
 </fieldType>
 ```
 测试一下我们新的分词器：
 
 ```
-// 输入 
+// 输入
 移动互联网
 
 // 输出
