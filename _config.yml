@@ -19,6 +19,7 @@ blogDesc: 		  至极至乐，体验思维的乐趣
 
 production_url:	  http://tidezyc.me
 
+excerpt_separator: <!--more-->
 defaults:
   -
     scope:
