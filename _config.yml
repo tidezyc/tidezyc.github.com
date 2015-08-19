@@ -1,7 +1,7 @@
 markdown:         redcarpet
 redcarpet:
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough"]
-    
+
 pygments:         true
 paginate:         4
 
@@ -18,3 +18,11 @@ blogName: 		  Tidezyc
 blogDesc: 		  至极至乐，体验思维的乐趣
 
 production_url:	  http://tidezyc.me
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
