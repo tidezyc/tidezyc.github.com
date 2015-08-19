@@ -78,7 +78,7 @@ public class IKAnalyzerTokenizerFactory extends TokenizerFactory{
 ```
 从结果来看，其效果还是比较不错的。
 
-<!--mores-->
+<!--more-->
 
 搞定了中文我们需要搞定英文
 英文简单的分词是按照空格，标点，stopword等来分词。
