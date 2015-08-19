@@ -26,7 +26,8 @@ layout: default
             </div>
         </header>
         <div class="entry-content clearfix">
-            {{ rpost.content | split:'<!--more-->' |first }}
+
+            {{ post.excerpt }}
             --- more ---
             <p class="read-more">
                 <a href="{{ rpost.url }}" title="Read More" rel="nofollow" class="more-link">
