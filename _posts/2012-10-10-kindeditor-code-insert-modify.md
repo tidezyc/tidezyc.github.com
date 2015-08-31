@@ -12,7 +12,7 @@ published: true
 ``` java
 	/**
 	 * 格式化HTML文本
-	 * 
+	 *
 	 * @param content
 	 * @return
 	 */
@@ -32,7 +32,7 @@ published: true
 ``` java
     /**
 	 * 格式化HTML文本
-	 * 
+	 *
 	 * @param content
 	 * @return
 	 */
@@ -51,7 +51,7 @@ published: true
 
 3、接下去就是显示了，这里用的不是osc的SyntaxHighlighter，而选择了ke自带的google-code-prettify，不过进行了一点小小的补充，先看效果图：
 
-![](http://bcs.duapp.com/imagestorage/kindeditor.png)
+![](/files/kindeditor.png)
 
 要实现以上效果，要做一点小的修改：
 

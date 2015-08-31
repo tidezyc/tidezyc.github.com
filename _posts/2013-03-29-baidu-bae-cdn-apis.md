@@ -11,7 +11,7 @@ tags:
 
 百度CDN最明显的优势就是速度快，下面是测试截图：
 
-![](http://bcs.duapp.com/imagestorage/BAE-CDN.png)
+![](/files/BAE-CDN.png)
 
 测试结果一目了然，百度在国内的速度明显优于googlecdn，在国内的话完全可以考虑将google cdn 替换成bae的cdn服务
 
@@ -32,9 +32,9 @@ tags:
 * [lesscss](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs#lesscss)
 * [mootools](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs#mootools)
 * [prototype](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs#prototype)
- 
+
 <!--more-->
- 
+
 当然BAE的公共库也有几个问题，主要是一下两个问题：
 *百度公共库目前还不支持 HTTPS 加密访问，如果有这个需求的话就需要考虑下了
 *百度公共库更新不是很即时，部分库的版本还是比较老，并没有提供最新版本的cdn

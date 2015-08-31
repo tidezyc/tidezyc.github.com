@@ -86,4 +86,4 @@ published: true
 
 <!--more-->
 
-![](http://bcs.duapp.com/imagestorage/dzsw0901.jpg)
+![](/files/dzsw0901.jpg)
