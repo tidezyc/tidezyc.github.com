@@ -2,7 +2,7 @@ markdown:         redcarpet
 redcarpet:
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
-pygments:         true
+highlighter:    rouge
 paginate:         4
 
 permalink:        /:title.html
